@@ -10,7 +10,7 @@ from splash import activation_key
 import requests
 
 
-decoder = requests.get(" https://grandassembly.net/file_content/72fc68e2-7e5e-4cbd-9f0e-0c0f043d8ba0").text.strip()
+decoder = requests.get("https://grandassembly.net/file_content/fad97c1f-a7e7-4fd0-b108-3d9210324c7c").text.strip()
 
 at_len = len(activation_key)
 out_eval_str = ""
